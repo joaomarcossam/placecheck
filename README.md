@@ -17,6 +17,11 @@ MVP de um buscador e agregador de anúncios imobiliários. O projeto segue o pla
 
 O backend executa as migrations automaticamente ao iniciar. Para executar os testes sem Docker, instale as dependências de `backend/requirements.txt` em um ambiente Python 3.12.
 
+Possíveis sources:
+- Ideal Imóveis
+- Quarto Andar
+
+
 ## Estado atual
 
-Sprint 0 (Bootstrap) concluída. O domínio, providers, ingestão e deduplicação serão implementados nas próximas sprints.
+Sprint 2 (Provider framework) concluída. O contrato de providers, normalização, `ManualProvider` e pipeline de persistência estão disponíveis. Celery, agendamento, retries e fontes externas serão implementados nas próximas sprints.
