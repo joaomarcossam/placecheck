@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.tsbuildinfo
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+node_modules/
+dist/
+.DS_Store
+
+# Django generated files
+staticfiles/
+media/
+
+# Local development data
+postgres_data/
+redis_data/
